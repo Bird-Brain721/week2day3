@@ -1,0 +1,44 @@
+body, h1, h2, ul, li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: inherit;
+}
+body {
+    background: #9000ff url(images/space.jpg) top left no-repeat;
+    background-size: cover;
+}
+nav {
+    background-color: #303030;
+    height: 40px;
+    margin-bottom: 110px;
+}
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+ul {
+    text-align: center;
+    padding: 4px;
+}
+li {
+    display: inline;
+    padding-right: 38px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+}
+li:last-child {
+    padding-right: 0px;
+}
